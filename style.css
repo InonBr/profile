@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Merriweather:400,700|Open+Sans:400,700&display=swap');
+
+body {
+  background-color: #dfddc7;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: rgb(30, 30 ,30);
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(10, 10 ,10);
+  padding: 20px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.white-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 3px;
+  width: 800px;
+  height: 650px;
+  text-align: center;
+  margin: 50px auto;
+  box-shadow: 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.follow-me-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.follow-me-list li {
+  display: inline-block;
+}
+
+.icon {
+  font-size: 40px;
+  color: #dfddc7;
+  margin: 20px;
+}
+
+.icon:hover {
+  color: #b7b5a6;
+}
+
+.footer {
+  background-color: white;
+  padding: 20px;
+  border-radius: 3px;
+  width: 800px;
+  height: 450px;
+  text-align: center;
+  margin: 50px auto;
+  box-shadow: 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+#pony {
+  height: 300px;
+}
+
+#my_image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#upper_button {
+  background: #505bda;
+  box-shadow: 0px 16px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px 24px;
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+}
+
+#upper_button:hover {
+  background-color: #3240de;
+  box-shadow: 0px 16px 8px rgba(0, 0, 0, 0.3);
+}
+
+#name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+  color: #010059;
+}
